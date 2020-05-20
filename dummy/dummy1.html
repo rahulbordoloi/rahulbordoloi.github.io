@@ -1,0 +1,414 @@
+<div id='hola'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        .container {
+            position: relative;
+            width: 50%;
+        }
+        
+        .image {
+            opacity: 1;
+            display: block;
+            width: 100%;
+            height: auto;
+            transition: .5s ease;
+            backface-visibility: hidden;
+        }
+        
+        .middle {
+            transition: .5s ease;
+            opacity: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            text-align: center;
+        }
+        
+        .container:hover .image {
+            opacity: 0.3;
+        }
+        
+        .container:hover .middle {
+            opacity: 1;
+        }
+        
+        .text {
+            background-color: #4CAF50;
+            color: white;
+            font-size: 16px;
+            padding: 16px 32px;
+        }
+    </style>
+    </head>
+
+    <body>
+
+        <h2>Opacity with Box</h2>
+        <p>Hover over the image to see the effect.</p>
+
+        <div class="container">
+            <img src="img_avatar.png" alt="Avatar" class="image" style="width:100%">
+            <div class="middle">
+                <div class="text">John Doe</div>
+            </div>
+        </div>
+</div>
+
+
+
+/*----------- 9. Portfolio area Starts --------*/ .portfolio-area { background: #fafafa; } .project-item img { width: 100%; } .overlay { position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; background: #00B0DC; opacity: 0; -webkit-transition:
+all .5s ease; -moz-transition: all .5s ease; -ms-transition: all .5s ease; -o-transition: all .5s ease; transition: all .5s ease; cursor: crosshair; } .overlay .overlay-inner { position: absolute; top: 35%; width: 100%; text-align: center; } .overlay
+.overlay-inner h4 { color: #ffffff !important; margin-bottom: 0 !important; -webkit-transition: all .5s; -moz-transition: all .5s; -ms-transition: all .5s; -o-transition: all .5s; transition: all .5s; -webkit-transform: translateY(-30px); -moz-transform:
+translateY(-30px); -ms-transform: translateY(-30px); -o-transform: translateY(-30px); transform: translateY(-30px); text-transform: uppercase; font-size: 25px; letter-spacing: 1px; } .overlay .overlay-inner p { color: #fff; -webkit-transition: all .5s;
+-moz-transition: all .5s; -ms-transition: all .5s; -o-transition: all .5s; transition: all .5s; -webkit-transform: translateY(30px); -moz-transform: translateY(30px); -ms-transform: translateY(30px); -o-transform: translateY(30px); transform: translateY(30px);
+margin-top: 10px; } .project-item:hover .overlay .overlay-inner h4 { -webkit-transform: translateY(0); -moz-transform: translateY(0); -ms-transform: translateY(0); -o-transform: translateY(0); transform: translateY(0); } .project-item:hover .overlay .overlay-inner
+p { -webkit-transform: translateY(0); -moz-transform: translateY(0); -ms-transform: translateY(0); -o-transform: translateY(0); transform: translateY(0); } .project-item a:hover .overlay { opacity: 1; } ul.port-nav-list { padding: 0 0 50px 0; list-style:
+none; text-align: center; } ul.port-nav-list li { display: inline-block; margin-right: 10px; } ul.port-nav-list li a { display: block; cursor: pointer; color: #262626; font-size: 18px; padding: 8px 12px; text-decoration: none; text-transform: uppercase;
+font-weight: 100; } ul.port-nav-list li a.active { color: #00B0DC; } .port-items { width: 100%; margin-left: 0; margin-right: 0; } .portfolio-items .port-items .single-port { overflow: hidden; margin-bottom: 25px; } .single-port { padding: 0; } /*--------
+Portfolio area css ends---------*/
+
+<div class="item row">
+    <a class="col-md-4 col-12" href="https://github.com/soumik12345/Image-Depth-Prediction" target="_blank">
+        <img class="img-fluid project-image" src="https://github.com/soumik12345/Image-Depth-Prediction/raw/master/assets/val_res_2.png" alt="project name" />
+    </a>
+    <div class="desc col-md-8 col-12">
+        <h3 class="title"><a href="https://github.com/soumik12345/Image-Depth-Prediction" target="_blank">Image Depth Prediction using GANs</a></h3>
+        <p class="mb-2">Tensorflow 2.2.0 implementation of single image stereo depthmap prediction using GANs.</p>
+        <p><a class="more-link" href="https://github.com/soumik12345/Image-Depth-Prediction" target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p>
+    </div>
+
+
+
+    <a href="images/port/6.png" class="zoom1">
+        <img src="images/port/6.png" alt="project image">
+        <!--edit image-->
+        <div class="overlay">
+            <div class="overlay-inner">
+                <h4>Others</h4>
+                <p></p>
+            </div>
+        </div>
+    </a>
+
+
+    <!--Portfolio area starts-->
+
+    <div id="PROJECT" class="projects-area section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2>My <span>Projects</span></h2>
+                </div>
+            </div>
+        </div>
+        <div class="projects-content">
+            <div class="projects-nav">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <ul class="port-nav-list">
+                                <li><a class="img-filter active" data-filter="*">All</a></li>
+                                <li><a class="img-filter" data-filter=".design">Machine Learning</a></li>
+                                <li><a class="img-filter" data-filter=".web">Deep Learning</a></li>
+                                <li><a class="img-filter" data-filter=".video">Others</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row port-items" id="img-filter" style="position: relative; height: 570px;">
+                    <div class="col-md-4 col-sm-6 col-xs-12 single-port design photography" style="position: absolute; left: 0px; top: 0px;">
+                        <div class="project-item">
+                            <a href="images/port/1.png" class="zoom1">
+                                <!--edit image-->
+                                <img src="images/port/1.png" alt="project image">
+                                <!--edit image-->
+                                <div class="overlay">
+                                    <div class="overlay-inner">
+                                        <h4>ML</h4>
+                                        <p></p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12 single-port design" style="position: absolute; left: 380px; top: 0px;">
+                        <div class="project-item">
+                            <a href="images/port/2.png" class="zoom1">
+                                <!--edit image-->
+                                <img src="images/port/2.png" alt="project image">
+                                <!--edit image-->
+                                <div class="overlay">
+                                    <div class="overlay-inner">
+                                        <h4>ML</h4>
+                                        <p></p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12 single-port photography" style="position: absolute; left: 760px; top: 0px;">
+                        <div class="project-item">
+                            <a href="images/port/3.png" class="zoom1">
+                                <img src="images/port/3.png" alt="project image">
+                                <!--edit image-->
+                                <div class="overlay">
+                                    <div class="overlay-inner">
+                                        <h4>DL</h4>
+                                        <p></p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12 single-port web" style="position: absolute; left: 0px; top: 285px;">
+                        <div class="project-item">
+                            <a href="images/port/3.png" class="zoom1">
+                                <img src="images/port/3.png" alt="project image">
+                                <!--edit image-->
+                                <div class="overlay">
+                                    <div class="overlay-inner">
+                                        <h4>DL</h4>
+                                        <p></p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12 single-port web packaging" style="position: absolute; left: 380px; top: 285px;">
+                        <div class="project-item">
+                            <a href="images/port/4.png" class="zoom1">
+                                <img src="images/port/4.png" alt="project image">
+                                <!--edit image-->
+                                <div class="overlay">
+                                    <div class="overlay-inner">
+                                        <h4>DL</h4>
+                                        <p></p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12 single-port branding video packaging" style="position: absolute; left: 760px; top: 285px;">
+                        <div class="project-item">
+                            <a href="images/port/5.png" class="zoom1">
+                                <img src="images/port/5.png" alt="project image">
+                                <!--edit image-->
+                                <div class="overlay">
+                                    <div class="overlay-inner">
+                                        <h4>Others</h4>
+                                        <p></p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12 single-port branding video packaging" style="position: absolute; left: 760px; top: 285px;">
+                        <div class="project-item">
+                            <div class="item row">
+                                <a class="col-md-4 col-12" href="https://github.com/soumik12345/Image-Depth-Prediction" target="_blank">
+                                    <img class="img-fluid project-image" src="https://github.com/soumik12345/Image-Depth-Prediction/raw/master/assets/val_res_2.png" alt="project name" />
+                                </a>
+                                <div class="desc col-md-8 col-12">
+                                    <h3 class="title"><a href="https://github.com/soumik12345/Image-Depth-Prediction" target="_blank">Image Depth Prediction using GANs</a></h3>
+                                    <p class="mb-2">Tensorflow 2.2.0 implementation of single image stereo depthmap prediction using GANs.</p>
+                                    <p><a class="more-link" href="https://github.com/soumik12345/Image-Depth-Prediction" target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Portfolio area starts-->
+
+        <div id="PROJECT" class="projects-area section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="section-title">
+                        <h2>My <span>Projects</span></h2>
+                    </div>
+                </div>
+            </div>
+            <div class="projects-content">
+                <div class="projects-nav">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <ul class="port-nav-list">
+                                    <li><a class="img-filter active" data-filter="*">All</a></li>
+                                    <li><a class="img-filter" data-filter=".design">Machine Learning</a></li>
+                                    <li><a class="img-filter" data-filter=".web">Deep Learning</a></li>
+                                    <li><a class="img-filter" data-filter=".video">Others</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row port-items" id="img-filter" style="position: relative; height: 570px;">
+                        <div class="col-md-4 col-sm-6 col-xs-12 single-port design photography" style="position: absolute; left: 0px; top: 0px;">
+                            <div class="project-item">
+                                <a href="images/port/1.png" class="zoom1">
+                                    <!--edit image-->
+                                    <img src="images/port/1.png" alt="project image">
+                                    <!--edit image-->
+                                    <div class="overlay">
+                                        <div class="overlay-inner">
+                                            <h4>ML</h4>
+                                            <p></p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12 single-port design" style="position: absolute; left: 380px; top: 0px;">
+                            <div class="project-item">
+                                <a href="images/port/2.png" class="zoom1">
+                                    <!--edit image-->
+                                    <img src="images/port/2.png" alt="project image">
+                                    <!--edit image-->
+                                    <div class="overlay">
+                                        <div class="overlay-inner">
+                                            <h4>ML</h4>
+                                            <p></p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12 single-port photography" style="position: absolute; left: 760px; top: 0px;">
+                            <div class="project-item">
+                                <a href="images/port/3.png" class="zoom1">
+                                    <img src="images/port/3.png" alt="project image">
+                                    <!--edit image-->
+                                    <div class="overlay">
+                                        <div class="overlay-inner">
+                                            <h4>DL</h4>
+                                            <p></p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12 single-port web" style="position: absolute; left: 0px; top: 285px;">
+                            <div class="project-item">
+                                <a href="images/port/3.png" class="zoom1">
+                                    <img src="images/port/3.png" alt="project image">
+                                    <!--edit image-->
+                                    <div class="overlay">
+                                        <div class="overlay-inner">
+                                            <h4>DL</h4>
+                                            <p></p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12 single-port web packaging" style="position: absolute; left: 380px; top: 285px;">
+                            <div class="project-item">
+                                <a href="images/port/4.png" class="zoom1">
+                                    <img src="images/port/4.png" alt="project image">
+                                    <!--edit image-->
+                                    <div class="overlay">
+                                        <div class="overlay-inner">
+                                            <h4>DL</h4>
+                                            <p></p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12 single-port branding video packaging" style="position: absolute; left: 760px; top: 285px;">
+                            <div class="project-item">
+                                <ul class="resumes">
+                                    <li class="resume-item expr">
+                                        <img src="images\exp\sds.png" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+                                        <p><span class="w3-large w3-margin-right"><b>Freelance Member</b></span> Dec 2019 – Present.</br>
+                                            <span class="w3-large w3-margin-right">SuperDataScience</span></p>
+                                        <p>Freelancer ML-DL Project Researcher and Open Source Contributor.
+                                        </p><br>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12 single-port branding video packaging" style="position: absolute; left: 760px; top: 285px;">
+                            <div class="project-item">
+                                <a href="images/port/6.png" class="zoom1">
+                                    <img src="images/port/6.png" alt="project image">
+                                    <!--edit image-->
+                                    <div class="overlay">
+                                        <div class="overlay-inner">
+                                            <h4>Others</h4>
+                                            <p></p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <script type="text/javascript">
+                /* NOTE : Use web server to view HTML files as real-time update will not work if you directly open the HTML file in the browser. */
+                (function(d, m) {
+                    var kommunicateSettings = {
+                        "appId": "233bd45d08e21830167f3c8c53313aa1",
+                        "popupWidget": true,
+                        "automaticChatOpenOnNavigation": true
+                    };
+                    var s = document.createElement("script");
+                    s.type = "text/javascript";
+                    s.async = true;
+                    s.src = "https://widget.kommunicate.io/v2/kommunicate.app";
+                    var h = document.getElementsByTagName("head")[0];
+                    h.appendChild(s);
+                    window.kommunicate = m;
+                    m._globals = kommunicateSettings;
+                })(document, window.kommunicate || {});
+            </script>
+
+
+
+            <form id="contact-form" method="post" action="https://mourithemes.com/robin/robin/contact.php" novalidate="true">
+
+                <div class="messages"></div>
+                <!--you can change the message in contact.php file -->
+
+                <div class="controls">
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input id="form_name" type="text" name="name" class="form-control" placeholder="Enter your full name *" required="required" data-error="Fullname is required.">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input id="form_email" type="email" name="email" class="form-control" placeholder="Enter your email *" required="required" data-error="Valid email is required.">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <textarea id="form_message" name="message" class="form-control" placeholder="Your Message *" rows="4" required="required" data-error="Leave a message for me"></textarea>
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <button class="btn btn-send" value="">Send message</button>
+                        </div>
+                    </div>
+                </div>
+
+            </form>
+
+            <li> <span class="title">Hobbies</span> <span class="value">Esports Gaming, Taekwondo, Football</span> </li>
