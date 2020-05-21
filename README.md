@@ -8,3 +8,8 @@ Check out my Sourcerer Profile - https://sourcerer.io/rahulbordoloi
 Technologicals Stacks used - HTML, CSS, JavaScript, Bootstrap.
 
 Deployment Tested on - https://www.netlify.com/
+
+Active Member on <a href="https://dev.to/rahulbordoloi">
+  <img src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg" alt="Rahul Bordoloi's DEV Profile" height="30" width="30">
+</a>
+ 
