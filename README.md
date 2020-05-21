@@ -2,6 +2,8 @@
 [![Pull Requests Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com)
 [![Setup Automated](https://img.shields.io/badge/setup-automated-blue?logo=gitpod)](https://gitpod.io/from-referrer/)
 
+<a href="https://www.linkedin.com/in/rahulbordoloi" target="_blank" title="Linkedin"><i class="fa fa-linkedin"></i></a>
+
 Check out Deployment - https://www.rahulbordoloi.me <br>
 Check out my Sourcerer Profile - https://sourcerer.io/rahulbordoloi
 
