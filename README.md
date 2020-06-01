@@ -9,10 +9,19 @@ Check out my Sourcerer Profile - https://sourcerer.io/rahulbordoloi <br>
 Check out my Twitch Channel - https://twitch.tv/r07tv <br>
 Check out my Twitter Account - https://twitter.com/rahulbordoloi_ <br>
 Check out my Instagram Profile - https://instagram.com/rahulbordoloi <br>
+Connect with me on Discord - [@R-07, #1064] <br>
 Check out my Dev.to Profile - https://dev.to/rahulbordoloi <img src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg" alt="Rahul Bordoloi's DEV Profile" height="30" width="30">
-
 </a> <br>
 Technologicals Stacks used - HTML, CSS, JavaScript, Bootstrap.
 
-Deployment Tested on - https://www.netlify.com/
+Development Deployment Tested on - https://www.netlify.com/
  
+## Donations
+
+[Donate in Patreon](https://patreon.com/rahulbordoloi) <br>
+<div>
+  <a class="donate-with-crypto"
+     href="https://commerce.coinbase.com/checkout/c2be6faa-ef33-40ea-9a18-6054fe6d75a0">
+    Donate with Crypto
+  </a>
+</div>
