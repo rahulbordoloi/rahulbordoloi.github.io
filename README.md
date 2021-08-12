@@ -19,9 +19,9 @@ Check out my Dev.to Profile - https://dev.to/rahulbordoloi <img src="https://d2f
 
 ## Development
 
-Technological Stacks used - HTML, CSS, JavaScript, Bootstrap.
+Technological Stacks used - HTML, CSS, JavaScript, Bootstrap, Google APIs.
 
-Development Deployment Tested on [Netlify](https://www.netlify.com/) - [Test Deployment Link](https://portfolio-test-deployment.netlify.app/)
+Testing Environment Deployment - https://portfolio-test-deployment.netlify.app/
  
 ## Contact Me
 
