@@ -5,7 +5,7 @@
 
 ## Links
 
-Check out Live Deployment - https://www.rahulbordoloi.me <br>
+Check out Live Deployment - https://www.rahulbordoloi.me (via Github Pages) <br>
 Check out my Linkedin Profile - https://www.linkedin.com/in/rahulbordoloi <br>
 Check out my Sourcerer Profile - https://sourcerer.io/rahulbordoloi <br>
 Check out my Stackoverflow Profile - https://meta.stackoverflow.com/users/13598602/rahul-bordoloi <br>
@@ -21,7 +21,7 @@ Check out my Dev.to Profile - https://dev.to/rahulbordoloi <img src="https://d2f
 
 Technological Stacks used - HTML, CSS, JavaScript, Bootstrap, Google APIs.
 
-Testing Environment Deployment - https://portfolio-test-deployment.netlify.app/
+Testing Environment Deployment - https://portfolio-test-deployment.netlify.app/ [![Tesing Environment Status](https://api.netlify.com/api/v1/badges/390f1e1d-806f-4fb9-8974-392f2857d63f/deploy-status)](https://app.netlify.com/sites/portfolio-test-deployment/deploys)
  
 ## Contact Me
 
