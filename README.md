@@ -25,8 +25,9 @@ Testing Environment Deployment - https://portfolio-test-deployment.netlify.app/ 
  
 ## Contact Me
 
-Mail me at : mail@rahulbordoloi.me (Professional) <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             rahulbordoloi24@gmail.com (Personal)
+<!-- Mail me at : mail@rahulbordoloi.me (Professional) <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+             rahulbordoloi24@gmail.com (Personal) -->
+Mail me at : rahulbordoloi24@gmail.com        
              
 ## Donations
 
