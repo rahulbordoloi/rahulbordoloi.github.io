@@ -1378,11 +1378,11 @@
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
                     <a href="#" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the
-                        top</a>
+                        Top</a>
                     <br>
                     <br>
                     <p>&copy; All Rights Reserved By<a href="https://linkedin.com/in/rahulbordoloi" target="_blank"
-                            class="w3-hover-text-green"> Rahul Bordoloi</a> (2022)</p>
+                            class="w3-hover-text-green"> Rahul Bordoloi </a>(<a class="w3-text-white" id="currentYearId"></a>)</p>
                     <!--edit here-->
                 </div>
             </div>
@@ -1459,10 +1459,15 @@
         document.getElementById("expCounter").innerHTML = finalDifference;
     </script>
 
+    <!-- Extract the Current Business Year -->
+    <script>
+        var currentYear = new Date().getFullYear();
+        document.getElementById("currentYearId").innerHTML = currentYear;
+    </script>
+
 </body>
 
 </html>
-
 
 
 
