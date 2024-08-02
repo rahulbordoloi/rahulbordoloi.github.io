@@ -95,15 +95,6 @@
     <!--Responsive css-->
     <link rel="stylesheet" href="css/responsive.css">
 
-    <!-- qfor calender -->
-    <!-- Include the library. -->
-    <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
-
-    <!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
-    <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
-
-
-
     <!-- for activity -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
     <link rel="stylesheet" href="./github-activity.css">
@@ -190,7 +181,7 @@
                                 <section class="intro animate-scale">
 
                                     <div class="img-area">
-                                        <img src="images/home/newMe.jpg" alt="">
+                                        <img src="images/home/IMG_2184.JPEG" alt="">
                                         <!--edit image-->
                                     </div>
 
@@ -222,8 +213,6 @@
                                             <li><a href="https://dev.to/rahulbordoloi" target="_blank"
                                                     title="Dev.to Blog"><i class="fa fa-dev-to"
                                                         aria-hidden="true"></i></a></li>
-                                            <li><a href="https://sourcerer.io/rahulbordoloi" target="_blank"
-                                                    title="Sourcerer"><i class="fa fa-barcode"></i></a></li>
                                         </ul>
                                     </div>
 
@@ -254,15 +243,15 @@
             <div class="row">
                 <div class="col-md-4 col-sm-12">
                     <div class="stack">
-                        <img src="images/about/formalPic.jpg" alt="about image">
+                        <img src="images/about/IMG_3358.JPEG" alt="about image">
                     </div>
                 </div>
                 <div class="col-md-7 col-md-offset-1 col-sm-12">
                     <div class="about-right">
                         <h2>Software Developer & Data Science Professional</h2>
                         <p>I am <span>RAHUL BORDOLOI</span>.
-                        <p>Currently a Software Engineer at HighRadius Corporation, Bhubaneswar.
-                            Have 3.5+ years of industry experience in building applications,
+                        <p id="experienceDescriptionPara">Currently a Software Engineer (Founding Team) at <a href="https://financeops.ai/">FinanceOps</a>.
+                            Have yopRoundedToNearestHalf+ years of industry experience in building applications,
                             overcoming complex architectural, and scalability issues in diverse environments. Capable of creating,
                             developing, testing, and deploying highly adaptive diverse services to translate business and functional
                             qualifications into substantial deliverables.
@@ -316,12 +305,32 @@
                 <div class="col-md-6">
                     <ul class="resumes">
                         <li class="resume-item expr">
+                            <img src="images\exp\financeops.png" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+                            <h3><b>Senior Software Engineer</b></h3>
+                            <br>
+                            <h4>FinanceOps</h4>
+                            <h5>Oct 2023 - Present</h5>
+                            <br>
+                            <p>
+                                Member of the Founding Team. Building FinanceOps from Scratch. As the First Engineer Hired from Data Science and Engineering Team, I'm Leading the Creation of World's First Fully Autonomous AI Agent for Debt Collection and others Functions of the Office of CFO.      
+                            </p>
+                            <br><br>
+                            <p class="w3-medium">Website : <a href="https://financeops.ai/" target="_blank"
+                                class="w3-hover-text-green">FinanceOps</a></p>
+                            <br>
+                        </li>
+                    </ul>
+                 </div>
+
+                <div class="col-md-6">
+                    <ul class="resumes">
+                        <li class="resume-item expr">
                             <img src="images\exp\0.png" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
                             <h3><b>Software Engineer - I</b></h3>
                             (Data Science & Engineering)
                             <br>
                             <h4>HighRadius Corporation</h4>
-                            <h5>July 2023 - Present</h5>
+                            <h5>July 2023 - Oct 2023</h5>
                             <br>
                             <p>
 
@@ -330,7 +339,6 @@
                                 * Enhanced Crypto-Utils for Encryption (AES) which can be easily coupled with wherever required.
                             
                             </p>
-                            <br><br><br><br><br><br>
                         </li>
                     </ul>
                  </div>
@@ -918,7 +926,43 @@
                     <h4 class="w3-text-white">Keras</h4>
                 </div>
             </div>
-    
+
+            <div class="row">
+                <div class="col-md-6 col-xs-6">
+                    <h4 class="w3-text-white">Systems Design</h4>
+                </div>
+                <div class="col-md-6 col-xs-6">
+                    <h4 class="w3-text-white">Microservices</h4>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6 col-xs-6">
+                    <h4 class="w3-text-white">Data Ingestion</h4>
+                </div>
+                <div class="col-md-6 col-xs-6">
+                    <h4 class="w3-text-white">Extract, Transform, Load (ETL)</h4>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6 col-xs-6">
+                    <h4 class="w3-text-white">Snowflake</h4>
+                </div>
+                <div class="col-md-6 col-xs-6">
+                    <h4 class="w3-text-white">Large Language Models (LLM)</h4>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6 col-xs-6">
+                    <h4 class="w3-text-white">Grafana</h4>
+                </div>
+                <div class="col-md-6 col-xs-6">
+                    <h4 class="w3-text-white">Performance Analysis</h4>
+                </div>
+            </div>
+
         </div>
     
     </div>
@@ -1298,51 +1342,14 @@
                     <div class="item">
                         <h2 class="counter" id="expCounter"></h2>
                         <!--edit-->
-                        <p>Total Work Exp* (Months)</p>
+                        <p>Total Work Exp* (Years)</p>
                     </div>
                 </div>
                 <h7>* denotes ongoing.</h7> <br>
-                <a href="#Github" class="w3-hover-text-green">Check out my Github Activity Log</a></li>
             </div>
         </div>
     </div>
 
-
-    <!-- Github Section [Removed as for Now] -->
-
-    <!-- <div id="Github" class="github-area section-padding">
-        <div class="container">
-            <div class="row">
-                <div class="section-title">
-                    <h2>Github <span>Activities</span></h2>
-                </div>
-            </div>
-            <div class="row">
-
-                <div class="col-md-12">
-
-                    // <-- for calender -->
-                    <!-- <div class="calendar"> -->
-                        <!-- Loading stuff -->
-                        <!-- Loading the data just for you. -->
-                    <!-- </div> -->
-
-                    <!-- // <-- for activity -->
-                    <!-- <div id="feed"></div> -->
-                <!-- </div> -->
-
-            <!-- </div> -->
-        <!-- </div> -->
-    <!-- </div> -->
-
-    </div>
-    </div>
-    </div>
-
-    <!--Github Area Ends-->
-
-    <!-- Commented out for Security -->
-    
     <!--Contact Area Starts-->
     <div id="contact" class="contact-area section-padding">
         <div class="container">
@@ -1356,7 +1363,7 @@
 
                     <div class="map-responsive">
                         <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29926.099201096284!2d85.8067321657319!3d20.351431964457166!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a190912b69339ab%3A0xa11e7186a04f1474!2sPatia%2C%20Bhubaneswar%2C%20Odisha!5e0!3m2!1sen!2sin!4v1647079553182!5m2!1sen!2sin"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15554.466828316692!2d77.66453377665823!3d12.93233886155174!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae13752e34e92f%3A0xc2b234a66f986aae!2sBellandur%2C%20Bengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1722565523869!5m2!1sen!2sin"
                             width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy">
                         </iframe>
                     </div>
@@ -1368,14 +1375,14 @@
                     <div class="right-contact-text">
                         <i class="fa fa-map-marker"></i>
                         <h2>Current Address</h2>
-                        <p>Bhubaneswar, IN</p>
+                        <p>Bengaluru, IN</p>
     <!--edit here-->
     </div>
     <div class="right-contact-text">
-                            <i class="fa fa-phone"></i>
-                            <h2>Contact Number</h2>
-                            <p>+91-9864887529</p>
-                            <!--edit here-->
+                            <!-- <i class="fa fa-phone"></i> -->
+                            <!-- <h2>Contact Number</h2>
+                            <p>xyz</p>
+                            edit here -->
     </div>
     <div class="right-contact-text">
                             <i class="fa fa-envelope"></i>
@@ -1457,29 +1464,26 @@
     <!--Main js-->
     <script src="js/main.js"></script>
 
-    <!--Github js-->
-    <script>
-        GitHubCalendar(".calendar", "rahulbordoloi");
-
-        // or enable responsive functionality:
-        //GitHubCalendar(".calendar", "your-username", { responsive: true });
-
-        // Use a proxy
-        //GitHubCalendar(".calendar", "your-username", { proxy (username) { return fetch(`https://your-proxy.com/github?user=${username}`).then(r => r.text()) });
-        GitHubActivity.feed({
-            username: "rahulbordoloi",
-            // repository: "your-repo", // optional
-            selector: "#feed",
-            limit: 10 // optional
-        });
-    </script>
-
     <!-- Total Experience Calculator -->
     <script>
+        function roundToNearestHalf(n) {
+            return Math.round(n * 2) / 2;
+        }
         let currentDate = new Date();
         let firstDate = new Date("2020-06-01");
-        var finalDifference = 3 + currentDate.getMonth() - firstDate.getMonth() + (12 * (currentDate.getFullYear() - firstDate.getFullYear()));
-        document.getElementById("expCounter").innerHTML = finalDifference;
+        let yearsDifference = currentDate.getFullYear() - firstDate.getFullYear();
+        let monthsDifference = currentDate.getMonth() - firstDate.getMonth();
+        if (monthsDifference < 0) {
+            yearsDifference--;
+            monthsDifference += 12;
+        }
+        let finalDifference = yearsDifference + monthsDifference / 12;
+        let yopRoundedToNearestHalf = roundToNearestHalf(finalDifference);
+
+        // Update HTML Content
+        document.getElementById("expCounter").innerHTML = finalDifference.toFixed(1);
+        let experienceParagraph = document.getElementById('experienceDescriptionPara');
+        experienceParagraph.innerHTML = experienceParagraph.innerHTML.replace('yopRoundedToNearestHalf', yopRoundedToNearestHalf);
     </script>
 
     <!-- Extract the Current Business Year -->
@@ -1491,9 +1495,3 @@
 </body>
 
 </html>
-
-
-
-
-
-
