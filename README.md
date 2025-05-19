@@ -15,9 +15,6 @@ Join my Discord Server - https://discord.gg/z4tjEW9QBg <br>
 Check out my Dev.to Profile - https://dev.to/rahulbordoloi <img src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg" alt="Rahul Bordoloi's DEV Profile" height="30" width="30">
 </a> <br>
 
-<!--- Check out my Medium Blog Post - https://www.medium.com/@rahulbordoloi <br> --->
-<!--- Check out my Instagram Profile - https://instagram.com/rahulbordoloi <br> --->
-
 ## Development
 
 Technological Stacks used - HTML, CSS, JavaScript, Bootstrap, Google APIs.
@@ -27,10 +24,7 @@ Branch - [Sandbox](https://github.com/rahulbordoloi/rahulbordoloi.github.io/tree
 
 ## Contact Me
 
-<!-- Mail me at : mail@rahulbordoloi.me (Professional) <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             rahulbordoloi24@gmail.com (Personal) -->
-
-Mail me at : rahulbordoloi24@gmail.com
+Mail me at : <a href="mailto:contact@rahulbordoloi.me">contact@rahulbordoloi.me</a>
 
 ## Donations
 
@@ -42,3 +36,4 @@ Mail me at : rahulbordoloi24@gmail.com
     Donate with Crypto
   </a>
 </div>
+
